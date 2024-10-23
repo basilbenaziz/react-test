@@ -7,18 +7,6 @@ function LoginCard({ setShowLogin, setShowSignUp }) {
     const [password, setPassword] = useState('');
     const [date, setDate] = useState('');
 
-    // To handle flash messages (success/error)
-    const handleFlashMessages = () => {
-        const params = new URLSearchParams(window.location.search);
-        const error = params.get('error');
-        const success = params.get('success');
-        if (error) {
-            alert(`Error: ${error}`);
-        } else if (success) {
-            alert(`Success: ${success}`);
-        }
-    };
-
     useEffect(() => {
         // Set current date
         const currentDate = new Date();
@@ -26,7 +14,6 @@ function LoginCard({ setShowLogin, setShowSignUp }) {
         const month = String(currentDate.getMonth() + 1).padStart(2, '0');
         const year = currentDate.getFullYear().toString().slice(2);
         setDate(`${day}/${month}/${year}`);
-        handleFlashMessages();
     }, []);
 
     // Validation functions
@@ -57,6 +44,10 @@ function LoginCard({ setShowLogin, setShowSignUp }) {
             </div>
 
             <div className="text-input">
+
+
+
+
                 <form id="loginForm" onSubmit={handleSubmit}>
                     <div className="card-form-input">
                         <div className="label">USERNAME</div>
@@ -108,6 +99,10 @@ function LoginCard({ setShowLogin, setShowSignUp }) {
                         Create your account, &nbsp; <span style={{ color: 'var(--red)' }}>SignUp</span>
                     </button>
                 </form>
+
+
+
+
             </div>
         </div>
     );

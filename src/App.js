@@ -22,11 +22,18 @@ function App() {
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/play" element={<Play />} />
         <Route path="/reward" element={<Reward />} />
+        {/* <Route path="/loginCard" element={<LoginCard />} /> */}
+        // if he click on login button then we will show login card on top of the page
         <Route path="/loginCard" element={<LoginCard />} />
 
         {/* You can add a default route to Home or any other component */}
         <Route path="/" element={<Home />} />
       </Routes>
+
+
+
+
+      
     </Router>
   );
 }

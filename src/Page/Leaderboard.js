@@ -62,9 +62,12 @@ function Leaderboard() {
 
         <img className="divider" src="img/divider.svg" alt="Divider" />
 
+
+
+
         {/* Loop through player data */}
-        {players.map((player, index) => (
-          <div className="system-row" key={index}>
+        {players.map((player) => (
+          <div className="system-row" key={player.id}>
             <div className="label">{player.rank}</div>
             <img
               className="system-row-img"
@@ -86,6 +89,10 @@ function Leaderboard() {
             <div className="label">{player.winRate}</div>
           </div>
         ))}
+
+
+
+
       </div>
     </div>
   );

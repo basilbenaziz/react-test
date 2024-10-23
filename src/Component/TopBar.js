@@ -9,12 +9,12 @@ function TopBar() {
 
     // Navigation functions
     const goHome = () => navigate('/home');
-    const goChallenge = () => navigate('/challenge');
     const goReward = () => navigate('/reward');
     const goHistory = () => navigate('/history');
     const goPlay = () => navigate('/play');
     const goLeaderboard = () => navigate('/leaderboard');
     const goLogin = () => navigate('/loginCard');
+    // const goChallenge = () => navigate('/challenge');
     const logout = () => {
         // Add your logout logic here (e.g., clearing tokens, logging out the user, etc.)
         console.log("Logging out...");
