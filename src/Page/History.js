@@ -1,7 +1,7 @@
 import React from "react";
-import "./css/history.css"; // Import your CSS file
-import "./css/globals.css";
-import "./css/styleguide.css";
+import "../css/history.css"; // Import your CSS file
+import "../css/globals.css";
+import "../css/styleguide.css";
 
 function History() {
   const gameData = [

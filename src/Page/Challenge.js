@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./css/globals.css";
-import "./css/styleguide.css";
-import "./css/challenge.css"; // Import your CSS file
+import "../css/globals.css";
+import "../css/styleguide.css";
+import "../css/challenge.css";
 
 function Challenge() {
   const [mainFlag, setMainFlag] = useState("");

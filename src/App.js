@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from "./Home.js";
-import Leaderboard from "./Leaderboard.js";
-import Play from "./Play.js";
-import Reward from "./Reward.js";
-import History from "./History.js";
-import Challenge from "./Challenge.js";
-import TopBar from "./TopBar.js";
-import LoginCard from "./LoginCard.js";
+import Home from "./Page/Home.js";
+import Leaderboard from "./Page/Leaderboard.js";
+import Play from "./Page/Play.js";
+import Reward from "./Page/Reward.js";
+import History from "./Page/History.js";
+import Challenge from "./Page/Challenge.js";
+import TopBar from "./Component/TopBar.js";
+import LoginCard from "./Page/LoginCard.js";
 
 function App() {
   return (

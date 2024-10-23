@@ -1,7 +1,7 @@
 import React from "react";
-import "./css/reward.css"; // Import your CSS file
-import "./css/globals.css";
-import "./css/styleguide.css";
+import "../css/reward.css";
+import "../css/globals.css";
+import "../css/styleguide.css";
 
 
 function Reward() {

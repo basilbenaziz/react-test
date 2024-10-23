@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './css/globals.css'; // Import your CSS styles
-import './css/styleguide.css'; // Import your CSS styles
+import '../css/globals.css'; // Import your CSS styles
+import '../css/styleguide.css'; // Import your CSS styles
 
 function LoginCard({ setShowLogin, setShowSignUp }) {
     const [username, setUsername] = useState('');

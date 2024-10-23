@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import './css/topBar.css'; // Import your CSS styles
-import './css/globals.css'; // Import your CSS styles
-import './css/styleguide.css'; // Import your CSS styles
+import '../css/topBar.css'; // Import your CSS styles
+import '../css/globals.css'; // Import your CSS styles
+import '../css/styleguide.css'; // Import your CSS styles
 
 function TopBar() {
     const navigate = useNavigate(); // useNavigate hook for programmatic navigation

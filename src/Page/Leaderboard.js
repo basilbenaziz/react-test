@@ -1,7 +1,7 @@
 import React from "react";
-import "./css/leaderboard.css"; // Import the CSS file
-import "./css/globals.css";
-import "./css/styleguide.css";
+import "../css/leaderboard.css"; // Import the CSS file
+import "../css/globals.css";
+import "../css/styleguide.css";
 
 function Leaderboard() {
   // Sample player data for rendering dynamically

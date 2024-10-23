@@ -1,7 +1,7 @@
 /* screen - home */
 
 
-.main {
+.home-main {
     align-items: center;
     align-self: stretch;
     display: flex;
@@ -16,14 +16,14 @@
 
 /* Start Logo */
 
-.logo {
+.home-logo {
     height: 83.8px;
     position: relative;
     /* width: 684.28px; */
     width: 100%;
 }
 
-.logo {
+.home-logo {
     height: 79px;
     left: 10px;
     mix-blend-mode: screen;
@@ -40,16 +40,16 @@
 
 
 
-.top {
+.home-top {
     display: flex;
     gap: 100px; /* Adjust as needed */
     width: 100%;
 }
 
 /* Start News */
-.news {
+.home-news {
     align-items: center;
-    background-color: var(--blue-dark);
+    background-color: var(--blue);
     border-radius: 25px;
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +58,7 @@
     padding: 10px;
     width: 100%;
 }
-  .news-col {
+  .home-news-col {
     margin: auto;
     align-items: flex-start;
     display: flex;
@@ -76,7 +76,7 @@
 
 
 
-  .newa-title-img {
+  .home-newa-title-img {
     align-items: center;
     align-self: stretch;
     display: inline-flex;
@@ -86,7 +86,7 @@
     position: relative;
     width: 100%;
   }
-.news-img {
+.home-news-img {
     border-radius: 25px;
     height: 150px;
     position: relative;
@@ -97,14 +97,14 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.newa-title {
+.home-newa-title {
     letter-spacing: 0;
     line-height: normal;
     position: relative;
     width: fit-content;
 }
 
-.news-pra {
+.home-news-pra {
     align-items: center;
     /* margin: auto; */
   /* align-self: stretch; */
@@ -124,7 +124,7 @@
 
 
 
-.leaderboard {
+.home-leaderboard {
     align-items: center;
     background-color: var(--blue);
     border-radius: 25px;
@@ -136,7 +136,7 @@
     width: 100%;
 }
 
-.leaderboard-label {
+.home-leaderboard-label {
     align-items: center;
     align-self: stretch;
     display: inline-flex;
@@ -147,13 +147,13 @@
 }
 
 
-.leaderboard-players {
+.home-leaderboard-players {
     width: 100%;
 }
 
 
 
-.leaderboard-row {
+.home-leaderboard-row {
     align-items: center;
     background-color: var(--blue);
     display: flex;
@@ -165,7 +165,7 @@
     width: 100%;
 }
 
-.leaderboard-row:nth-child(odd) {
+.home-leaderboard-row:nth-child(odd) {
     background-color: var(--blue-dark);
 }
 
@@ -173,7 +173,7 @@
 
 
 
-.all-frame {
+.home-all-frame {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -183,7 +183,7 @@
     width: 90%;
     justify-content: space-evenly;
 }
-.x-frame {
+.home-x-frame {
     border-radius: 25px;
     border:var(--yellow) 2px solid;
     align-items: center;

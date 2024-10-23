@@ -1,7 +1,7 @@
 import React from "react";
-import "./css/play.css";
-import "./css/globals.css";
-import "./css/styleguide.css";
+import "../css/play.css";
+import "../css/globals.css";
+import "../css/styleguide.css";
 import { useNavigate } from "react-router-dom";
 
 function Play() {
