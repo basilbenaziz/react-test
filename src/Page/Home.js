@@ -10,6 +10,9 @@ function Home() {
         <img className="home-logo" src="img/logo.svg" alt="Logo" />
 
         <div className="home-top">
+
+
+
           <div className="home-news">
             <div className="home-news-col">
               <div className="home-newa-title-img">
@@ -28,6 +31,8 @@ function Home() {
               </p>
             </div>
           </div>
+
+
 
           <div className="home-leaderboard">
             <div className="home-leaderboard-label label">
@@ -49,7 +54,14 @@ function Home() {
               ))}
             </div>
           </div>
+
+
+
         </div>
+
+
+
+        
 
         <div className="home-all-frame">
           {/* Buttons leading to external links */}
@@ -66,6 +78,9 @@ function Home() {
             </button>
           ))}
         </div>
+
+
+
       </div>
     </div>
   );

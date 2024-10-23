@@ -20,6 +20,8 @@ function History() {
   return (
     <div className="screen">
       <div className="history-main">
+
+
         <div className="history-last-game-container">
           <h1 className="title h3">Last Game:</h1>
 
@@ -60,6 +62,7 @@ function History() {
           <img className="history-his-img" src="img/refrech.svg" alt="Refresh" />
         </div>
 
+
         <div className="history-history-container label">
           <div className="history-history-top-bar">
             <div>SORT BY:</div>
@@ -77,6 +80,7 @@ function History() {
           </div>
 
           <img style={{ width: "100%" }} src="img/divider.svg" alt="Divider" />
+
 
           {gameData.map((game, index) => (
             <div className="history-row" key={index}>
@@ -100,6 +104,14 @@ function History() {
 
               <div className="history-column label">{game.date}</div>
             </div>
+
+
+
+
+
+
+
+
           ))}
         </div>
       </div>
