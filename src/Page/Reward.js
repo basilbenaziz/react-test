@@ -7,14 +7,20 @@ import medal from '../img/medal.svg';
 
 function Reward() {
     // Array to dynamically render locked trophies
-    const rewards = Array.from({ length: 6 }, (_, i) => (
+    const rewards = [
         {
-            id: i,
+            id: 1,
             status: "LOCKED", // You can later replace this with dynamic statuses like 'UNLOCKED'
             imgSrc: medal, // Image source for the reward
             altText: "Trophy",
+        },
+        {
+            id: 2,
+            status: "fist flag", // You can later replace this with dynamic statuses like 'UNLOCKED'
+            imgSrc: medal, // Image source for the reward
+            altText: "Trophy",
         }
-    ));
+    ];
 
     return (
         <div className="screen">
