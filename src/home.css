@@ -92,8 +92,8 @@
     position: relative;
     width: 150px;
 
-    /* background-color: var(--blue-dark); */
-    background-image: url("../img/burpSuite.svg");
+    background-color: var(--blue-dark);
+    /* background-image: url("../img/burpSuite.svg"); */
     background-repeat: no-repeat;
     background-position: center;
 }

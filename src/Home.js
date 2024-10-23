@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import "./globals.css";
 import "./styleguide.css";
+import TopBar from "./TopBar.js";
 
 function Home() {
   return (

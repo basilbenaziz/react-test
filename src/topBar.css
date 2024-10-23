@@ -1,0 +1,61 @@
+.label {
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Chakra Petch", Helvetica;
+    color: #fff686;
+}
+
+.top-bar-half {
+    background-image: url('img/tobbar.svg');
+    background-size: 100%;
+
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+}
+
+.nav-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+    gap: 20px;
+    position: relative;
+    height: auto;
+    width: auto;
+}
+
+.nav-icon-image {
+    height: 30px;
+    width: 30px;
+}
+
+.nav-Butt {
+    background-color: transparent;
+    border: none;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.play-icon {
+    background-color: #ff2a6d;
+    border: 5px solid;
+    border-color: #860029;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+}
