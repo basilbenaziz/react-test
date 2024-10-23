@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import './topBar.css'; // Import your CSS styles
-import './globals.css'; // Import your CSS styles
-import './styleguide.css'; // Import your CSS styles
+import './css/topBar.css'; // Import your CSS styles
+import './css/globals.css'; // Import your CSS styles
+import './css/styleguide.css'; // Import your CSS styles
 
 function TopBar() {
     const navigate = useNavigate(); // useNavigate hook for programmatic navigation
@@ -14,7 +14,7 @@ function TopBar() {
     const goHistory = () => navigate('/history');
     const goPlay = () => navigate('/play');
     const goLeaderboard = () => navigate('/leaderboard');
-    const goLogin = () => navigate('/login');
+    const goLogin = () => navigate('/loginCard');
     const logout = () => {
         // Add your logout logic here (e.g., clearing tokens, logging out the user, etc.)
         console.log("Logging out...");

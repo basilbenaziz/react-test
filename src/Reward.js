@@ -1,5 +1,8 @@
 import React from "react";
-import "./reward.css"; // Import your CSS file
+import "./css/reward.css"; // Import your CSS file
+import "./css/globals.css";
+import "./css/styleguide.css";
+
 
 function Reward() {
   // Array to dynamically render locked trophies

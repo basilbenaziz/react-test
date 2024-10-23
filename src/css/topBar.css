@@ -9,7 +9,7 @@
 }
 
 .top-bar-half {
-    background-image: url('img/tobbar.svg');
+    background-image: url('../img/tobbar.svg');
     background-size: 100%;
 
     display: flex;

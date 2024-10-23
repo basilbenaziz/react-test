@@ -49,7 +49,7 @@
 /* Start News */
 .news {
     align-items: center;
-    background-color: var(--blue);
+    background-color: var(--blue-dark);
     border-radius: 25px;
     display: flex;
     flex-wrap: wrap;

@@ -7,6 +7,7 @@ import Reward from "./Reward.js";
 import History from "./History.js";
 import Challenge from "./Challenge.js";
 import TopBar from "./TopBar.js";
+import LoginCard from "./LoginCard.js";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/play" element={<Play />} />
         <Route path="/reward" element={<Reward />} />
+        <Route path="/loginCard" element={<LoginCard />} />
 
         {/* You can add a default route to Home or any other component */}
         <Route path="/" element={<Home />} />
