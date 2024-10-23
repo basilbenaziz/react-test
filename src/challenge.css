@@ -1,0 +1,219 @@
+/* screen - challenge */
+
+
+.main {
+    background-color: var(--blue);
+    border-radius: 50px;
+
+    margin: 100px;
+    /* margin-left: auto; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    /* padding: 100px; */
+
+    /* background-color: #f0f0f0; */
+    width: calc(100% - 200px);
+
+    overflow: hidden;
+}
+
+
+
+
+
+.description {
+    padding: 50px;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    /* gap: 100px; */
+}
+
+/* .challenge--description */
+.challenge--description {
+    gap: 20px;
+    align-items: center;
+    word-spacing: 2px;
+    line-height: normal;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    white-space: inherit;
+    /* Ensures text can break onto the next line */
+    word-wrap: break-word;
+    /* Forces long words to wrap to the next line */
+}
+
+
+
+.challenge-col {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    width: fit-content;
+    width: 50%;
+}
+
+
+
+.challenge-img {
+    height: 105px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+.team-contaner {
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+
+
+    /* gap: 100px; */
+    padding: 100;
+    width: calc(100% - 200px);
+    /* Adjusts for the 100px margins on both sides */
+}
+
+
+.team {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+    width: 100%;
+
+
+}
+
+
+.player {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+
+.player-col-name {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+    width: fit-content;
+    /* background-color: red; */
+}
+
+
+.photo {
+    background-color: var(--cyan-dark);
+    border-radius: 25px;
+    display: flex;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    width: 60px;
+}
+
+
+
+.player-col-id-score {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+    width: fit-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+.challenge-main {
+    display: flex;
+
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+}
+
+
+
+.challenge-col-flags {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: fit-content;
+
+
+}
+
+.flag{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.challenge-conect {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 97px;
+    position: relative;
+
+    width: fit-content;
+
+
+}
+
+
+
+
+.challenge-conect-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 30px;
+
+    justify-content: space-evenly;
+}

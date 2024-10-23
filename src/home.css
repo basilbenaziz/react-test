@@ -1,0 +1,215 @@
+/* screen - home */
+
+
+.main {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 100px;
+    padding: 50px 100px;
+    position: relative;
+    width: 100%;
+}
+
+/* Start Logo */
+
+.logo {
+    height: 83.8px;
+    position: relative;
+    /* width: 684.28px; */
+    width: 100%;
+}
+
+.logo {
+    height: 79px;
+    left: 10px;
+    mix-blend-mode: screen;
+    position: relative;
+    top: 4px;
+    /* width: 674px; */
+    width: 100%;
+  }
+
+/* End Logo */
+
+
+
+
+
+
+.top {
+    display: flex;
+    gap: 100px; /* Adjust as needed */
+    width: 100%;
+}
+
+/* Start News */
+.news {
+    align-items: center;
+    background-color: var(--blue);
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    overflow: hidden;
+    padding: 10px;
+    width: 100%;
+}
+  .news-col {
+    margin: auto;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: -47.00px; */
+    /* margin-right: -12.50px; */
+    /* margin-top: -47.00px; */
+    gap: 50px;
+    padding: 30px;
+    position: relative;
+    /* height: 100%; */
+    width: 100%;
+  }
+
+
+
+
+  .newa-title-img {
+    align-items: center;
+    align-self: stretch;
+    display: inline-flex;
+    /* flex: 1; */
+    /* flex-grow: 1; */
+    gap: 20px;
+    position: relative;
+    width: 100%;
+  }
+.news-img {
+    border-radius: 25px;
+    height: 150px;
+    position: relative;
+    width: 150px;
+
+    /* background-color: var(--blue-dark); */
+    background-image: url("../img/burpSuite.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.newa-title {
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+}
+
+.news-pra {
+    align-items: center;
+    /* margin: auto; */
+  /* align-self: stretch; */
+  /* flex: 1; */
+  /* letter-spacing: 2px; */
+  word-spacing: 2px;
+  line-height: normal;
+  position: relative;
+  width: 100%;
+}
+
+/* End News */
+
+
+
+
+
+
+
+.leaderboard {
+    align-items: center;
+    background-color: var(--blue);
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    overflow: hidden;
+    padding: 10px;
+    width: 100%;
+}
+
+.leaderboard-label {
+    align-items: center;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+
+.leaderboard-players {
+    width: 100%;
+}
+
+
+
+.leaderboard-row {
+    align-items: center;
+    background-color: var(--blue);
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 10px 0px;
+    position: relative;
+    width: 100%;
+}
+
+.leaderboard-row:nth-child(odd) {
+    background-color: var(--blue-dark);
+}
+
+
+
+
+
+.all-frame {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center; /* Center horizontally */
+    width: 90%;
+    justify-content: space-evenly;
+}
+.x-frame {
+    border-radius: 25px;
+    border:var(--yellow) 2px solid;
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center; /* Center vertically */
+    overflow: hidden;
+    padding: 50px 100px;
+    height: 350px;
+    width: 350px;
+}
+
+
+
+
+
+
+
+
+
+.error-message {
+  color: #ff2a6d; /* Adjust the color as needed */
+  font-size: 14px; /* Adjust as needed */
+  margin-top: 5px;
+  min-height: 8px; /* Reserve space even when no error message */
+}
