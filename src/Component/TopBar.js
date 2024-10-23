@@ -29,6 +29,7 @@ function TopBar() {
                     <div className="label">HOME</div>
                 </div>
             </button>
+            
 
             <button className="nav-Butt" onClick={goLogin}>
                 <div className="nav-icon">
