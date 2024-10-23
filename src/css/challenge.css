@@ -1,7 +1,7 @@
 /* screen - challenge */
 
 
-.main {
+.chall-main {
     background-color: var(--blue);
     border-radius: 50px;
 
@@ -24,7 +24,7 @@
 
 
 
-.description {
+.chall-description {
     padding: 50px;
     background-color: var(--blue);
     display: flex;
@@ -35,7 +35,7 @@
 }
 
 /* .challenge--description */
-.challenge--description {
+.chall-challenge--description {
     gap: 20px;
     align-items: center;
     word-spacing: 2px;
@@ -53,7 +53,7 @@
 
 
 
-.challenge-col {
+.chall-challenge-col {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@
 
 
 
-.challenge-img {
+.chall-challenge-img {
     height: 105px;
     width: 100px;
 }
@@ -76,7 +76,7 @@
 
 
 
-.team-contaner {
+.chall-team-contaner {
     align-items: center;
     display: flex;
     position: relative;
@@ -90,7 +90,7 @@
 }
 
 
-.team {
+.chall-team {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -102,7 +102,7 @@
 }
 
 
-.player {
+.chall-player {
 
     display: flex;
     align-items: center;
@@ -111,7 +111,7 @@
     width: 100%;
 }
 
-.player-col-name {
+.chall-player-col-name {
     display: flex;
     align-self: stretch;
     align-items: center;
@@ -123,7 +123,7 @@
 }
 
 
-.photo {
+.chall-photo {
     background-color: var(--cyan-dark);
     border-radius: 25px;
     display: flex;
@@ -135,7 +135,7 @@
 
 
 
-.player-col-id-score {
+.chall-player-col-id-score {
     display: flex;
     align-self: stretch;
     align-items: center;
@@ -155,7 +155,7 @@
 
 
 
-.challenge-main {
+.chall-challenge-main {
     display: flex;
 
     width: 100%;
@@ -166,7 +166,7 @@
 
 
 
-.challenge-col-flags {
+.chall-challenge-col-flags {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -176,7 +176,7 @@
 
 }
 
-.flag{
+.chall-flag{
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
@@ -193,7 +193,7 @@
 
 
 
-.challenge-conect {
+.chall-challenge-conect {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -208,7 +208,7 @@
 
 
 
-.challenge-conect-row {
+.chall-challenge-conect-row {
     display: flex;
     flex-direction: column;
     align-items: center;

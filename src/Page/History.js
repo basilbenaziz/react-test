@@ -18,12 +18,12 @@ function History() {
   ];
 
   return (
-    <div className="history screen">
-      <div className="main">
-        <div className="last-game-container">
+    <div className="screen">
+      <div className="history-main">
+        <div className="history-last-game-container">
           <h1 className="title h3">Last Game:</h1>
 
-          <div className="last-game-row">
+          <div className="history-last-game-row">
             <img
               className="last-game-img"
               src="img/encryption.svg"
@@ -32,11 +32,11 @@ function History() {
             <div className="h3">Phishing</div>
           </div>
 
-          <div className="last-game-col">
+          <div className="history-last-game-col">
             <div className="h3">DIFFICULTY</div>
-            <div className="last-game-row">
+            <div className="history-last-game-row">
               <img
-                className="last-game-img"
+                className="history-last-game-img"
                 src="img/encryption.svg"
                 alt="Phishing Credit Card"
               />
@@ -44,31 +44,31 @@ function History() {
             </div>
           </div>
 
-          <div className="last-game-col">
+          <div className="history-last-game-col">
             <div className="h3">USER</div>
-            <div className="last-game-row">
-              <img className="his-img" src="img/login.svg" alt="user" />
+            <div className="history-last-game-row">
+              <img className="history-his-img" src="img/login.svg" alt="user" />
               <div className="label">1 VS 1</div>
             </div>
           </div>
 
-          <div className="last-game-col">
+          <div className="history-last-game-col">
             <div className="h3">SCORE</div>
             <div className="label">500</div>
           </div>
 
-          <img className="his-img" src="img/refrech.svg" alt="Refresh" />
+          <img className="history-his-img" src="img/refrech.svg" alt="Refresh" />
         </div>
 
-        <div className="history-container label">
-          <div className="history-top-bar">
+        <div className="history-history-container label">
+          <div className="history-history-top-bar">
             <div>SORT BY:</div>
             <div>DATE</div>
             <div>SCORE</div>
             <div>DIFFICULTY</div>
           </div>
 
-          <div className="history-top-bar">
+          <div className="history-history-top-bar">
             <div>TYPE:</div>
             <div>DIFFICULTY RATING</div>
             <div>USER</div>
@@ -79,26 +79,26 @@ function History() {
           <img style={{ width: "100%" }} src="img/divider.svg" alt="Divider" />
 
           {gameData.map((game, index) => (
-            <div className="row" key={index}>
-              <div className="column">
-                <img className="his-img" src={game.imgSrc} alt="Game type" />
+            <div className="history-row" key={index}>
+              <div className="history-column">
+                <img className="history-his-img" src={game.imgSrc} alt="Game type" />
                 <div className="label">{game.type}</div>
               </div>
 
-              <div className="column">
-                <div className="flex-col">
-                  <div className="expert label">{game.difficulty}</div>
+              <div className="history-column">
+                <div className="history-flex-col">
+                  <div className="history-expert label">{game.difficulty}</div>
                 </div>
               </div>
 
-              <div className="column">
+              <div className="history-column">
                 <img className="" src={game.userImg} alt="user" />
                 <div className="label">{game.players}</div>
               </div>
 
-              <div className="column label">{game.score}</div>
+              <div className="history-column label">{game.score}</div>
 
-              <div className="column label">{game.date}</div>
+              <div className="history-column label">{game.date}</div>
             </div>
           ))}
         </div>

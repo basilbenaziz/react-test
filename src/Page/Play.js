@@ -14,46 +14,46 @@ function Play() {
     const goChallenge = () => navigate('/challenge');
 
     return (
-        <div className="main screen">
+        <div className="play-main screen">
             <h1 className="h1">Select Challenge</h1>
 
-            <div className="challenge-container">
+            <div className="play-challenge-container">
                 {/* Challenge Selection with Checkbox */}
-                <label className="custom-checkbox">
+                <label className="play-custom-checkbox">
                     <input type="checkbox" id="checkbox1" />
                     <img
-                        className="challenge-img"
+                        className="play-challenge-img"
                         src="img/encryption.svg"
                         alt="encryption challenge"
                     />
-                    <div className="label">encryption</div>
+                    <div style={{padding: '10px',}} className="label">encryption</div>
                 </label>
 
-                <label className="custom-checkbox">
+                <label className="play-custom-checkbox">
                     <input type="checkbox" id="checkbox2" />
                     <img
-                        className="challenge-img"
+                        className="play-challenge-img"
                         src="img/encryption.svg"
                         alt="encryption challenge"
                     />
-                    <div className="label">encryption</div>
+                    <div style={{padding: '10px',}} className="label">encryption</div>
                 </label>
             </div>
 
-            <div className="player-container">
-                <div className="player-info">
+            <div className="play-player-container">
+                <div className="play-player-info">
                     <img
-                        className="player-img-container"
+                        className="play-player-img-container"
                         src="img/login.svg"
                         alt="player avatar"
                     />
                     <div className="h1">PAWTATO</div>
                 </div>
 
-                <img className="invite-frame" src="img/login.svg" alt="invite friend" />
+                <img className="play-invite-frame" src="img/login.svg" alt="invite friend" />
             </div>
 
-            <button className="play-button h1" onClick={goChallenge}>
+            <button className="play-play-button h1" onClick={goChallenge}>
                 Play
             </button>
         </div>

@@ -19,9 +19,9 @@ function Challenge() {
 
   return (
     <div className="screen">
-      <div className="main">
-        <div className="description">
-          <div className="challenge--description">
+      <div className="chall-main">
+        <div className="chall-description">
+          <div className="chall-challenge--description">
             <div className="h4">CHALLENGE DESCRIPTION:</div>
             <div className="eyebrow">
               YOU'VE JUST RECEIVED AN INVITATION TO A PARTY. AUTHORITIES HAVE
@@ -31,63 +31,63 @@ function Challenge() {
             </div>
           </div>
 
-          <div className="challenge-col">
+          <div className="chall-challenge-col">
             <div className="h4">TYPE</div>
             <img
-              className="challenge-img"
+              className="chall-challenge-img"
               src="img/encryption.svg"
               alt="Analysis"
             />
-            <div className="recon label">RECON</div>
+            <div className="chall-recon label">RECON</div>
           </div>
 
-          <div className="challenge-col">
+          <div className="chall-challenge-col">
             <div className="h4">DIFFICULTY</div>
             <img
-              className="challenge-img"
+              className="chall-challenge-img"
               src="img/encryption.svg"
               alt="Analysis"
             />
           </div>
 
-          <div className="challenge-col">
+          <div className="chall-challenge-col">
             <div className="h4">TOTAL SCORE</div>
             <div className="label">300</div>
           </div>
         </div>
 
-        <div className="team-contaner">
-          <div className="team">
+        <div className="chall-team-contaner">
+          <div className="chall-team">
             <div className="h3">Team 1</div>
-            <div className="player">
-              <div className="player-col-name">
+            <div className="chall-player">
+              <div className="chall-player-col-name">
                 <div className="label">PLAYER 2</div>
-                <div className="photo">
-                  <img className="user-2" src="img/login.svg" alt="user" />
+                <div className="chall-photo">
+                  <img className="chall-user-2" src="img/login.svg" alt="user" />
                 </div>
               </div>
-              <div className="player-col-id-score">
+              <div className="chall-player-col-id-score">
                 <div className="label">PLAYER ID:</div>
                 <div className="label">#1029</div>
               </div>
-              <div className="player-col-id-score">
+              <div className="chall-player-col-id-score">
                 <div className="label">SCORE:</div>
                 <div className="label-green">100</div>
               </div>
             </div>
 
-            <div className="player">
-              <div className="player-col-name">
+            <div className="chall-player">
+              <div className="chall-player-col-name">
                 <div className="label">PLAYER 2</div>
-                <div className="photo">
-                  <img className="user-2" src="img/login.svg" alt="user" />
+                <div className="chall-photo">
+                  <img className="chall-user-2" src="img/login.svg" alt="user" />
                 </div>
               </div>
-              <div className="player-col-id-score">
+              <div className="chall-player-col-id-score">
                 <div className="label">PLAYER ID:</div>
                 <div className="label">#1029</div>
               </div>
-              <div className="player-col-id-score">
+              <div className="chall-player-col-id-score">
                 <div className="label">SCORE:</div>
                 <div className="label">-100</div>
               </div>
@@ -96,37 +96,37 @@ function Challenge() {
 
           <div className="h1">VS</div>
 
-          <div className="team">
+          <div className="chall-team">
             <div className="h3">Team 2</div>
-            <div className="player">
-              <div className="player-col-name">
+            <div className="chall-player">
+              <div className="chall-player-col-name">
                 <div className="label">PLAYER 2</div>
-                <div className="photo">
-                  <img className="user-2" src="img/login.svg" alt="user" />
+                <div className="chall-photo">
+                  <img className="chall-user-2" src="img/login.svg" alt="user" />
                 </div>
               </div>
-              <div className="player-col-id-score">
+              <div className="chall-player-col-id-score">
                 <div className="label">PLAYER ID:</div>
                 <div className="label">#1029</div>
               </div>
-              <div className="player-col-id-score">
+              <div className="chall-player-col-id-score">
                 <div className="label">SCORE:</div>
                 <div className="label">-100</div>
               </div>
             </div>
 
-            <div className="player">
-              <div className="player-col-name">
+            <div className="chall-player">
+              <div className="chall-player-col-name">
                 <div className="label">PLAYER 2</div>
-                <div className="photo">
-                  <img className="user-2" src="img/login.svg" alt="user" />
+                <div className="chall-photo">
+                  <img className="chall-user-2" src="img/login.svg" alt="user" />
                 </div>
               </div>
-              <div className="player-col-id-score">
+              <div className="chall-player-col-id-score">
                 <div className="label">PLAYER ID:</div>
                 <div className="label">#1029</div>
               </div>
-              <div className="player-col-id-score">
+              <div className="chall-player-col-id-score">
                 <div className="label">SCORE:</div>
                 <div className="label">-100</div>
               </div>
@@ -134,9 +134,9 @@ function Challenge() {
           </div>
         </div>
 
-        <div className="challenge-main">
-          <div className="challenge-col-flags">
-            <div className="flag">
+        <div className="chall-challenge-main">
+          <div className="chall-challenge-col-flags">
+            <div className="chall-flag">
               <div className="text-input">
                 <div className="label">Main Flag</div>
                 <form className="form-input" onSubmit={handleSubmit}>
@@ -155,7 +155,7 @@ function Challenge() {
               </div>
             </div>
 
-            <div className="flag">
+            <div className="chall-flag">
               <div className="text-input">
                 <div className="label">Sub-Flag</div>
                 <form className="form-input" onSubmit={handleSubmit}>
@@ -174,7 +174,7 @@ function Challenge() {
               </div>
             </div>
 
-            <div className="flag">
+            <div className="chall-flag">
               <div className="text-input">
                 <div className="label">Sub-Flag</div>
                 <form className="form-input" onSubmit={handleSubmit}>
@@ -194,19 +194,19 @@ function Challenge() {
             </div>
           </div>
 
-          <div className="challenge-conect">
-            <div className="challenge-conect-row">
+          <div className="chall-challenge-conect">
+            <div className="chall-challenge-conect-row">
               <div className="h1">IP</div>
               <div className="h2">192.168.11.100</div>
               <div className="eyebrow">OPENVPN</div>
             </div>
 
-            <div className="challenge-conect-row">
+            <div className="chall-challenge-conect-row">
               <h1 className="h1">Time Remaining</h1>
               <div className="h2">1:30:53 h</div>
             </div>
 
-            <div className="challenge-conect-row">
+            <div className="chall-challenge-conect-row">
               <div className="h1">Your Score</div>
               <div className="h2 text-22">-100</div>
             </div>
