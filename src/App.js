@@ -6,7 +6,7 @@ import Play from "./Page/Play.js";
 import Reward from "./Page/Reward.js";
 import History from "./Page/History.js";
 import Challenge from "./Page/Challenge.js";
-import TopBar from "./Component/TopBar.js";
+import TopBar from "./components/TopBar.js";
 import LoginCard from "./Page/LoginCard.js";
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
 
 
 
-      
+
     </Router>
   );
 }
