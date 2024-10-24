@@ -103,7 +103,7 @@ function Leaderboard() {
         // Add more players here
     ];
 
-    
+
     return (
         <div className="main screen">
             {/* Player details at the top */}
